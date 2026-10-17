@@ -1,0 +1,25 @@
+[project]
+name = "superheroes-curse-agent-artist"
+version = "0.1.0"
+description = "Супергерои — проклятие — многоагентная художественная лаборатория"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "openai>=3.28,<4", "python-dotenv>=1.2,<2", "pillow>=12,<13",
+  "nbformat>=5.10,<6", "nbclient>=0.10,<1", "ipykernel>=6,<8",
+  "diffusers>=0.35,<1", "transformers>=4.45,<5", "accelerate>=1,<2",
+  "torch>=2.5,<3", "torchvision>=0.20,<1", "safetensors>=0.4,<1",
+  "sentencepiece>=0.2,<1",
+]
+
+[dependency-groups]
+dev = ["pytest>=8,<10", "ruff>=0.11,<1"]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 100

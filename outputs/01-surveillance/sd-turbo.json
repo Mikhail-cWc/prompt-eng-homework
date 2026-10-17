@@ -1,0 +1,19 @@
+{
+  "model": "stabilityai/sd-turbo",
+  "revision": "b261bac6fd2cf515557d5d0707481eafa0485ec2",
+  "device": "mps",
+  "seed": 42,
+  "steps": 4,
+  "guidance_scale": 0.0,
+  "size": [
+    512,
+    512
+  ],
+  "prompt": "Vertical 2:3 poster: dark shield silhouette (face hidden) looms, crimson shadow transitions gradually from cone to grid over fragmented, desaturated city, high contrast, rough raster, tears/folds, no text or people",
+  "prompt_tokens": 48,
+  "dtype": "torch.float16",
+  "torch": "2.14.1",
+  "sha256": "5143b2c2f64901fceb2098282ade8aa2397bf00e7e1288b1404af7a7a869cf2d",
+  "elapsed_seconds_including_load": 4.66,
+  "timestamp": "2026-10-17T08:27:10.184785+00:00"
+}

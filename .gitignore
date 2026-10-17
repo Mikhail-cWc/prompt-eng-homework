@@ -1,0 +1,19 @@
+.env
+.env.*
+!.env.sample
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.DS_Store
+docs/references/
+outputs/*.log
+archive/
+submission.zip
+
+# Local review notes and browser captures; not part of the submission.
+docs/ASSIGNMENT_REVIEW.md
+docs/VERIFICATION.md
+outputs/gallery-preview.png
+outputs/gallery-mobile.png
